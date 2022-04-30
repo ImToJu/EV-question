@@ -14,9 +14,8 @@ int main(){
 
     int pot=1;
     int priceCount[6]={0};
-    int repTimes;
+    int repTimes=10000000;
     double ev=0;
-    cin>>repTimes;
     for(int c=0;c<repTimes;c++){
         int t=1000,cmpltTime=0;
         for(int i=0;i<6;i++){
